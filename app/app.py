@@ -2,7 +2,6 @@ import streamlit as st
 import pickle
 import pandas as pd
 from streamlit import session_state as session
-import  streamlit_toggle as tog
 from recommendation_engine import recommender
 
 st.set_page_config(page_title="Skincare Recommender", page_icon=":shell:", layout="wide")
