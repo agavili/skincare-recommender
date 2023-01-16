@@ -1,5 +1,5 @@
 # skincare-recommender
-Content-based recommendation engine that recommends scraped Dermstore skincare products based on product ingredients and descriptions 🧖🏻‍♀️
+Content-based recommendation engine that recommends scraped Dermstore skincare products based on product ingredients and descriptions 🫧
      
 
 ## Architecture:
