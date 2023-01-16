@@ -2,7 +2,7 @@
 Content-based recommendation engine that recommends scraped DERMSTORE skincare products based on product ingredients and descriptions
 
 ## Architecture:
-1) Skincare product data (Moisturizers, Treatments/Serums, Cleansurs/Exfoliators) scraped from [dermstore.com]using **Scrapy**
+1) Skincare product data (Moisturizers, Treatments/Serums, Cleansurs/Exfoliators) scraped from [dermstore.com] using **Scrapy**
 2) Standardized ingredients with [skincarisma.com]'s Ingredient Analyzer Tool using **Selenium Webriver**
 3) Vectorized product ingredients and descriptions using **BERT embeddings** and **TruncatedSVD/TSNE**
 4) Recommended products based on highest **Cosine Similarity**
