@@ -10,7 +10,7 @@ Content-based recommendation engine that recommends scraped Dermstore skincare p
 
 ## To Run:
 1) Run ```scrapy crawl <spider> -O file_name.csv``` (for each spider)
-2) Update Chromedriver path clean_ingredients.py
+2) Update Chromedriver path ```clean_ingredients.py```
 3) Run ```python3 clean_ingredients.py```
 4) Run ```streamlit run app.py```
 
