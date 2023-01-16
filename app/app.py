@@ -19,7 +19,7 @@ def load_data():
 
 sample_skincare = load_data()
 
-with open("../data/product_names.pkl", "rb") as f:
+with open("data/product_names.pkl", "rb") as f:
     products = pickle.load(f)
 
 # ---- HEADER SECTION ----
