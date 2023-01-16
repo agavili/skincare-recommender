@@ -1,5 +1,6 @@
 # skincare-recommender
-Content-based recommendation engine that recommends scraped Dermstore skincare products based on product ingredients and descriptions
+Content-based recommendation engine that recommends scraped Dermstore skincare products based on product ingredients and descriptions 🧖🏻‍♀️
+     
 
 ## Architecture:
 1) Skincare product data (Moisturizers, Treatments/Serums, Cleansurs/Exfoliators) scraped from [Dermstore](https://dermstore.com) using **Scrapy**
@@ -18,7 +19,7 @@ Content-based recommendation engine that recommends scraped Dermstore skincare p
 
 **My App:** https://agavili-skincare-recommender-appapp-z3slwy.streamlit.app/
 
-## App Demo:
+## ✨ App Demo ✨
 
 ![Alt Text](final_skincare.gif)
 
