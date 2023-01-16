@@ -13,7 +13,7 @@ def load_data():
     load and cache data
     :return: sample skincare data
     """
-    data = pd.read_csv("ample_skincare.csv")
+    data = pd.read_csv("sample_skincare.csv")
     return data
 
 
