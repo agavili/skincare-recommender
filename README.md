@@ -14,7 +14,7 @@ Content-based recommendation engine that recommends scraped Dermstore skincare p
 3) Run ```python3 clean_ingredients.py```
 4) Run ```streamlit run app.py```
 
-**App accessible:** http://localhost:8501
+**App accessible:** http://localhost:8501 or https://agavili-skincare-recommender-appapp-z3slwy.streamlit.app/
 
 ## App Demo:
 
