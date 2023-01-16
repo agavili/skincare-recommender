@@ -18,3 +18,5 @@ Content-based recommendation engine that recommends scraped Dermstore skincare p
 ## App Demo:
 
 ![Alt Text](skincare_demo_AdobeExpress.gif)
+
+<img src="skincare_demo_AdobeExpress.gif" alt="demo" width="600"/>
