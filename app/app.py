@@ -62,7 +62,6 @@ table = None
 if dataframe is not None:
     df = dataframe.reset_index(drop=True)
     res_df = df[['name','brand', 'link', 'price', 'prod_type']]
-    table = st.table(res_df)
     view_dataframe = st.dataframe(res_df)
 
 placeholder = st.empty()
