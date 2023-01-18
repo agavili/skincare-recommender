@@ -25,7 +25,7 @@ with open("data/product_names.pkl", "rb") as f:
 # ---- HEADER SECTION ----
 with st.container():
     st.subheader("Need help with finding the right skincare product for you? :wave:")
-    st.title("Skincare Recommender")
+    st.title("Skincare Recommender 🫧")
     st.write(
         "All products are scraped from Dermstore (https://www.dermstore.com/)"
     )
@@ -63,8 +63,9 @@ if dataframe is not None:
     df = dataframe.reset_index(drop=True)
     res_df = df[['name','brand', 'link', 'price', 'prod_type']]
     table = st.table(res_df)
+    view_dataframe = st.dataframe(res_df)
 
 placeholder = st.empty()
 remove_table = placeholder.button('Clear Table')
 if remove_table:
-    table = None
+    view_dataframe = None
